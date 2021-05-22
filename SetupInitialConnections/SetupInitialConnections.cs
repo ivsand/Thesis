@@ -29,6 +29,7 @@ public class SetupInitialConnections : MonoBehaviour
             // Debug.Log("correct!");
             Canvas.SetActive(false);
             CorrectWindow.SetActive(true);
+            Cursor.visible = true;
         }
         else
         {
